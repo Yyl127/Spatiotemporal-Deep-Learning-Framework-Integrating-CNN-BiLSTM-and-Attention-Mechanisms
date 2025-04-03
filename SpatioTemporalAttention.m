@@ -1,4 +1,4 @@
-classdef SpatioTemporalAttention1D < nnet.layer.Layer
+classdef SpatioTemporalAttention < nnet.layer.Layer
     properties (Learnable)
         W_spatial   % [C,1,T] Spatial weights independent at each time step
         W_temporal  % [C,1,T] Time weights independent for each channel

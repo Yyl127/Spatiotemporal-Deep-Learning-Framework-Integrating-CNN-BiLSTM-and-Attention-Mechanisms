@@ -34,7 +34,7 @@ TWSA          | cm     | Target variable             |
 1.  Data Preparation
 2.  Preprocessing:  `main.m`
 3.  Model Training: Execute `CNN_BiLSTM_BayesOpt.m`
-4.  Implements the spatio-temporal attention mechanism : SpatioTemporalAttention.m
-5.  Implements Squeeze-and-Excitation attention for CNN feature recalibration:SCAttention.m
-6.  Implements a Gaussian noise layer to improve model robustness:GaussianNoiseLayer.m
-7. Custom loss function for improved regression performance:HuberRegressionLayer.m
+4.  Implements the spatio-temporal attention mechanism : `SpatioTemporalAttention.m`
+5.  Implements Squeeze-and-Excitation attention for CNN feature recalibration: `SCAttention.m`
+6.  Implements a Gaussian noise layer to improve model robustness: `GaussianNoiseLayer.m`
+7. Custom loss function for improved regression performance: `HuberRegressionLayer.m`
